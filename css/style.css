@@ -652,7 +652,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .opinion li {
+  .opinion ul li {
     max-width: 100%;
     margin: 0%;
     padding-bottom: 20px;
