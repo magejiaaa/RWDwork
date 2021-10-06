@@ -1,0 +1,105 @@
+.register{
+    width: 62%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    padding: 15px;
+    border-top: 3px solid #FF5E45;
+    .register_content{
+        display: flex;
+        .register_text{
+            width: 47%;
+            font-size: 18px;
+            color: $font-color;
+            line-height: 1.1;
+            margin-right: 3%;
+        }
+    }
+    h6{
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: 'Noto Sans TC';
+        font-weight: 900;
+        color: $font-color;
+    }
+    .signup_input{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        input{
+            display: block;
+        }
+        label{
+            font-family: "Microsoft JhengHei","微軟正黑體";
+            color: $font-color;
+            margin-bottom: 15px;
+            position: relative;
+            input{
+                background: #FFFFFF;
+                border: 1px solid #CCCCCC;
+                box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                border-radius: 3px;
+                width: 100%;
+                padding: 8px;
+                margin-top: 3px;
+                padding-left: 40px;
+            }
+            i{
+                position: absolute;
+                bottom: 9px;
+                left: 13px;
+                color: rgba(61,17,0,0.50);
+            }
+        }
+        .passwordinput{
+            margin-bottom: 3px;
+        }
+        a{
+            text-decoration: none;
+            color: $alink_hover;
+            font-size: 14px;
+            margin-bottom: 30px;
+            width: 50%;
+        }
+        a:hover{
+            color:#3d1101;
+        }
+        .loginbtn{
+            text-align: right;
+        }
+        .login_btn{
+            width: 125px;
+            padding: 9px;
+            text-align: center;
+            border-radius: 3px;
+            border: none;
+            color: #FFFFFF;
+        }
+        .orange{
+            margin-bottom: 0px;
+            background: #F56C23;
+            font-size: 14px;
+            display: inline-block;
+        }
+        .orange:hover{
+            background: #d65511;
+            color: #FFFFFF;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .register{
+        width: 90%;
+        .register_content{
+            flex-direction: column;
+            .register_text{
+                width: 100%;
+                margin-bottom: 25px;
+                margin-right: 0;
+            }
+            .signup_input{
+                width: 100%;
+            }
+        }
+    }
+}

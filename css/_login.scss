@@ -1,0 +1,106 @@
+.logintitle{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    color: $font-color;
+    margin-bottom: 35px;
+    h1{
+        font-weight: 900;
+        font-family: "Noto Sans TC";
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: $font-normal;
+    }
+}
+.login_input{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    padding: 15px;
+    border-top: 3px solid #FF5E45;
+    h6{
+        text-align: center;
+        margin-bottom: 16px;
+        font-family: 'Noto Sans TC';
+        font-weight: 900;
+        color: $font-color;
+    }
+    input{
+        display: block;
+    }
+    label{
+        font-family: "Microsoft JhengHei","微軟正黑體";
+        color: $font-color;
+        margin-bottom: 15px;
+        position: relative;
+        input{
+            background: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            box-shadow: inset 0px 1px 0px 0px #ECECEC;
+            border-radius: 3px;
+            width: 100%;
+            padding: 8px;
+            margin-top: 3px;
+            padding-left: 40px;
+        }
+        i{
+            position: absolute;
+            bottom: 9px;
+            left: 13px;
+            color: rgba(61,17,0,0.50);
+        }
+    }
+    .passwordinput{
+        margin-bottom: 3px;
+    }
+    a{
+        text-decoration: none;
+        color: $alink_hover;
+        font-size: 14px;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+    a:hover{
+        color:#3d1101;
+    }
+    .loginbtn{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .login_btn{
+        width: 125px;
+        padding: 9px;
+        text-align: center;
+        border-radius: 3px;
+        border: none;
+        color: #FFFFFF;
+    }
+    .gray{
+        margin-bottom: 0px;
+        background: rgba(0,0,0,0.35);
+        font-size: 14px;
+    }
+    .gray:hover{
+        background: rgba(0, 0, 0, 0.5);
+        color: #FFFFFF;
+    }
+    .orange{
+        background: #F56C23;
+        line-height: 14px;
+    }
+    .orange:hover{
+        background: #d65511;
+    }
+}
+
+@media (max-width:767px) {
+    .login_input{
+        width: 90%;
+    }
+}
