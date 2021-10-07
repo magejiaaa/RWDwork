@@ -68,7 +68,7 @@ img {
 }
 
 input {
-  -webkit-animation: none;
+  -webkit-appearance: none;
 }
 
 body {
