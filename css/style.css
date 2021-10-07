@@ -67,6 +67,10 @@ img {
   height: auto;
 }
 
+input {
+  -webkit-animation: none;
+}
+
 body {
   background: #EFE9E7;
 }
